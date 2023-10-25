@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'GitlabSans';
+    src: url(/font/GitLabSans.otf);
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+}
+.nav-link i.fas {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.fab {
+    font-size: 20px;
+    width: auto;
+    height: 25px;
+}
+body {
+    font-family: 'GitlabSans', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #E7F9FF;
+}
+
+#promo{
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(#00A4DF, #0086B6, #00A4DF);
+}
+
+#promo h5{
+    margin: 0;
+}
+
+nav .nav-link{
+    color: #00688D;
+}
+
+#hero-banner{
+    height: 100%;
+    width: auto;
+    background: url(/img/HeroBanner.png);
+    border: 10px;
+    background-size: cover;
+    color: white;
+}
+
+#hero-banner .btn{
+    color: #004A65;
+    background-color: #FFC52E;
+}
+#hero-banner h6{
+    background: #FFC52E;
+    font-size: 16px;
+    font-weight: 600;
+}
+#hero-banner h1{
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 96px;
+    line-height: 1;
+}
+#hero-banner h1 span{
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+#hero-banner p{
+    font-weight:lighter;
+}
+@media (max-width: 375px) {
+    #hero-banner h1{
+        font-size: 80px;
+    }
+}
+@media (max-width: 768px) {
+    #hero1{
+        z-index: 2;
+    }
+    #hero2{
+        z-index: 1;
+        left: auto;
+    }
+}
+@media (max-width: 576px) {
+    #hero1{
+        z-index: 2;
+    }
+    #hero2{
+        overflow-y: hidden;
+        position: absolute;
+        z-index: 1;
+    }
+    #hero2 img{
+        max-height: 80%;
+        width: auto;
+    }
+}
+/* content1 */
+#content1 {
+    background: #FFC52E;
+}
+#content1 #image-collapse1 {
+    height: fit-content;
+}
+
+#content1 #image-collapse2 .L1{
+    background: linear-gradient(#FDBA4D, #FFFFFF); 
+}
+#content1 #image-collapse2 .L2{
+    background: linear-gradient(#FFFFFF, #30B0FF); 
+}
+@media (max-width: 1199px) {
+    #image-collapse2 .row {
+        flex-direction: row;
+    }
+}
+/* @media (max-width: 1399px){
+    #content1 #image-collapse2 .L1{
+        margin-bottom: 4.5rem;
+    }
+} */
+/* @media (max-width: 1199px){
+    #content1 #image-collapse1 img{
+        height: 100%;
+        width:auto;
+    }
+    #content1 #image-collapse2{
+        height: max-content;
+        width: 200px;
+    }
+    #content1 #image-collapse2 .L1{
+        width: max-content;
+        margin-bottom: 11.5rem;
+    }
+    #content1 #image-collapse2 .L2{
+        width: fit-content;
+    }
+}
+@media (max-width: 1000px){
+    #content1 #image-collapse1 img{
+        height: 100%;
+        width:auto;
+    }
+    #content1 #image-collapse2{
+        height: max-content;
+        width: 200px;
+    }
+    #content1 #image-collapse2 .L1{
+        width: max-content;
+        margin-bottom: 6rem;
+    }
+    #content1 #image-collapse2 .L2{
+        width: fit-content;
+    }
+}
+
+} */
+@media (max-width: 768px){
+    #content1 #image-collapse1 {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* Content 2 */
+#content2 #offer {
+    display: flex;
+    justify-content: center;
+}
+#content2 .card{
+    max-width: 325px;
+    border-radius: 10px;
+}
+#content2 #offer .rating li i{
+    height: 16px;
+    width: 16px;
+}
+#content2 #offer .rating p{
+    font-size: 14px;
+    font-style:normal;
+}
+#content2 #offer .p1 {
+    max-height: 332px; 
+    width: 100%;
+    background: linear-gradient(#FFC52E, #E7F9FF);
+    border-radius: 20px;
+}
+
+#content2 #offer .p2 {
+    max-height: 332px; 
+    width: 100%; 
+    background: linear-gradient(#30B0FF, #E7F9FF);
+    border-radius: 20px;
+}
+
+#content2 #offer .love-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    border: none;
+    background: #E7F9FF;
+}
+
+#content2 #offer .love-button i {
+    color: #00688D;
+}
+
+#content2 #offer .love-button.btn.active i {
+    transition: ease-out 0.5s;
+    color: red;
+}
+#content2 .card-body{
+    background-color: #E7F9FF;
+    padding: 0;
+    border: 20px;
+}
+#content2 .rating{
+    list-style: none;
+}
+#content2 span{
+    margin: 10px;
+    color: #BDBDBD;
+    text-decoration: line-through;
+}
+@media (min-width: 1200px) {
+    
+}
+@media (max-width: 1200px) {
+    #content2 #offer {
+        display: flex;
+        align-items: center;
+    }
+    #content2 .card {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 768px) {
+    #content2 #offer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: scroll;
+    }
+    #content2 .card {
+        display: inline-block;
+        margin-right: 20px;
+        margin-bottom: 30px
+    }
+    #content2 .col-md-4{
+        justify-content: center;
+    }
+    #content2 .col-12{
+        width: max-content;
+    }
+}
+
+/* hero-banner2 */
+#hero-banner2 #banner-content{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#00A4DF, #30B0FF);
+    overflow: hidden;
+}
+#hero-banner2 .layer{
+    position: absolute;
+    z-index: 1;
+}
+#hero-banner2 .layer2{
+    z-index: 2;
+}
+/* content3 */
+#content3 .container-fluid{
+    background: #00A4DF;
+}
+#content3 #banner-content {
+    height: auto;
+    background: url(/img/bannerA.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+    color: white;
+}
+
+#content3 #banner #banner-content  h6{
+    background: #FFC52E;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+#content3 #banner #banner-content h1{
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 80px;
+}
+#content3 #banner #banner-content h1 span{
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+#content3 #banner #banner-content p{
+    margin-top: 119px;
+    margin-bottom: 20px;
+    font-weight:lighter;
+}
+
+#content3 #product {
+    overflow-x: hidden;
+}
+#content3 #product .carousel-indicators button {
+    background-color: #FFDE8A; 
+    border: none; 
+    width: 12px; 
+    height: 12px;
+    margin: 0 5px; 
+    border-radius: 50%; 
+}
+
+#content3 #product .carousel-indicators .active {
+    background-color: #00A4DF;
+    border-radius: 25%;
+    width: 30px;
+}
+
+#content3 #product .card{
+    width: max-content;
+    overflow: hidden;
+}
+
+#content3 #product .p1 {
+    max-height: 332px; 
+    width: 100%;
+    background: linear-gradient(#FFC52E, #E7F9FF);
+    border-radius: 20px;
+}
+
+#content3 #product .p2 {
+    max-height: 332px; 
+    width: 100%; 
+    background: linear-gradient(#30B0FF, #E7F9FF);
+    border-radius: 20px;
+}
+
+#content3 #product .love-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    border: none;
+    background: #E7F9FF;
+}
+
+#content3 #product .love-button i {
+    color: #00688D;
+}
+
+#content3 #product .love-button.btn.active i {
+    color: red;
+}
+
+#content3 #product .card-body {
+    background-color: #E7F9FF;
+    padding: 0;
+}
+
+#content3 #product .rating {
+    list-style: none;
+    align-items: center;
+}
+
+#content3 #product span {
+    margin: 10px;
+    color: #BDBDBD;
+    text-decoration: line-through;
+}
+#content3 #product h6{
+    font-size: 12px;
+}
+#content3 #product p {
+    font-size: 10px;
+    margin-bottom: 0;
+}
+@media (max-width: 1400px) and (min-width: 1200px) {
+    #content3 #product h6,
+    #content3 #product p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 768px) {
+    #content3 .carousel-item {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    #content3 .carousel-item .d-flex {
+        flex-wrap: nowrap;
+        width: max-content;
+    }
+    #content3 .carousel-item .card {
+        min-width: 250px;
+    }
+    #content3 .carousel-item .rating p{
+        margin-left: 90px !important;
+    }
+    #content3 .carousel-item .price h6{
+        margin-right: 70px !important;
+    }
+}
+/* content4 */
+
+#content4 .carousel-inner{
+    margin: 40px 0;
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+}
+#content4 .carousel-indicators button {
+    background-color: #FFDE8A; 
+    border: none; 
+    width: 12px; 
+    height: 12px;
+    margin: 0 5px; 
+    border-radius: 50%; 
+}
+
+#content4 .carousel-indicators .active {
+    background-color: #00A4DF;
+    border-radius: 25%;
+    width: 30px;
+}
+/* #content5 img{
+    max-height: 100%;
+    width: auto;
+} */
+#content5 .image-item{
+    max-height: 230px;
+    max-width: 227.85px;
+    padding: 0;
+    overflow: hidden;
+}
+footer{
+    margin-top: 10vh;
+    background-color: #D9F5FF;
+}
+.footer-content{
+    
+}
+.footer-content h2{
+    margin-bottom: 50px;
+}
+.footer-content p{
+    margin-bottom: 30px;
+}
