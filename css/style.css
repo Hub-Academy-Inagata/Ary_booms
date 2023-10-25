@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
     font-family: 'GitlabSans';
-    src: url(/font/GitLabSans.otf);
+    src: url(/font/GitLabSansN.ttf);
     font-weight: 600;
     font-size: 18px;
     font-style: normal;
@@ -43,14 +43,6 @@ nav .nav-link{
     color: #00688D;
 }
 
-#hero-banner{
-    height: 100%;
-    width: auto;
-    background: url(/img/HeroBanner.png);
-    border: 10px;
-    background-size: cover;
-    color: white;
-}
 
 #hero-banner .btn{
     color: #004A65;
@@ -281,13 +273,6 @@ nav .nav-link{
 /* content3 */
 #content3 .container-fluid{
     background: #00A4DF;
-}
-#content3 #banner-content {
-    height: auto;
-    background: url(/img/bannerA.png) no-repeat;
-    background-size: cover;
-    background-position: right;
-    color: white;
 }
 
 #content3 #banner #banner-content  h6{
