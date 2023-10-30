@@ -139,6 +139,11 @@ nav .nav-link{
     border-radius: 18px;
     overflow: hidden;
 }
+#content2 .card-title {
+    color: #434040;
+    font-size: 16px;
+    font-weight: 600;
+}
 #content2 #offer .rating li i{
     height: 16px;
     width: 16px;
@@ -290,20 +295,19 @@ nav .nav-link{
 #content3 #product .card{
     width: max-content;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 #content3 #product .p1 {
     max-height: 332px; 
     width: 100%;
     background: linear-gradient(#FFC52E, #E7F9FF);
-    border-radius: 20px;
 }
 
 #content3 #product .p2 {
     max-height: 332px; 
     width: 100%; 
     background: linear-gradient(#30B0FF, #E7F9FF);
-    border-radius: 20px;
 }
 
 #content3 #product .love-button {
@@ -340,10 +344,13 @@ nav .nav-link{
 }
 #content3 #product h6{
     font-size: 12px;
+    font-weight: 600;
+    color: #434040;
 }
 #content3 #product p {
     font-size: 10px;
     margin-bottom: 0;
+    color: #434040;
 }
 @media (max-width: 1400px) and (min-width: 1200px) {
     #content3 #product h6,
