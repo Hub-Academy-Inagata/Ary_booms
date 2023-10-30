@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
     font-family: 'GitlabSans';
-    src: url(/font/GitLabSansN.ttf);
+    src: url(/font/GitLabSansN.ttf );
     font-weight: 600;
     font-size: 18px;
     font-style: normal;
@@ -97,6 +97,11 @@ nav .nav-link{
 /* content1 */
 #content1 {
     background: #FFC52E;
+    color: #434040;
+}
+#content1 p{
+    font-size: 14px;
+    font-weight: 500;
 }
 #content1 #image-collapse1 {
     height: fit-content;
@@ -113,62 +118,26 @@ nav .nav-link{
         flex-direction: row;
     }
 }
-/* @media (max-width: 1399px){
-    #content1 #image-collapse2 .L1{
-        margin-bottom: 4.5rem;
-    }
-} */
-/* @media (max-width: 1199px){
-    #content1 #image-collapse1 img{
-        height: 100%;
-        width:auto;
-    }
-    #content1 #image-collapse2{
-        height: max-content;
-        width: 200px;
-    }
-    #content1 #image-collapse2 .L1{
-        width: max-content;
-        margin-bottom: 11.5rem;
-    }
-    #content1 #image-collapse2 .L2{
-        width: fit-content;
-    }
-}
-@media (max-width: 1000px){
-    #content1 #image-collapse1 img{
-        height: 100%;
-        width:auto;
-    }
-    #content1 #image-collapse2{
-        height: max-content;
-        width: 200px;
-    }
-    #content1 #image-collapse2 .L1{
-        width: max-content;
-        margin-bottom: 6rem;
-    }
-    #content1 #image-collapse2 .L2{
-        width: fit-content;
-    }
-}
 
-} */
-@media (max-width: 768px){
-    #content1 #image-collapse1 {
-        margin-bottom: 40px;
+@media (max-width: 992px){
+    #content1 #image-collapse .row{
+        margin-bottom: 100px;
     }
 }
 
 
 /* Content 2 */
+#content2{
+    margin-top: 30vh;
+}
 #content2 #offer {
     display: flex;
     justify-content: center;
 }
 #content2 .card{
     max-width: 325px;
-    border-radius: 10px;
+    border-radius: 18px;
+    overflow: hidden;
 }
 #content2 #offer .rating li i{
     height: 16px;
@@ -182,14 +151,12 @@ nav .nav-link{
     max-height: 332px; 
     width: 100%;
     background: linear-gradient(#FFC52E, #E7F9FF);
-    border-radius: 20px;
 }
 
 #content2 #offer .p2 {
     max-height: 332px; 
     width: 100%; 
     background: linear-gradient(#30B0FF, #E7F9FF);
-    border-radius: 20px;
 }
 
 #content2 #offer .love-button {
@@ -256,6 +223,9 @@ nav .nav-link{
 }
 
 /* hero-banner2 */
+#hero-banner2{
+    margin-top: 30vh !important;
+}
 #hero-banner2 #banner-content{
     position: relative;
     justify-content: center;
@@ -271,10 +241,9 @@ nav .nav-link{
     z-index: 2;
 }
 /* content3 */
-#content3 .container-fluid{
-    background: #00A4DF;
+#content3{
+    margin-top: 30vh;
 }
-
 #content3 #banner #banner-content  h6{
     background: #FFC52E;
     font-size: 16px;
@@ -402,6 +371,11 @@ nav .nav-link{
         margin-right: 70px !important;
     }
 }
+@media (max-width: 575px) {
+    #content3 #titleC{
+    margin: 0 10px;
+    }
+}
 /* content4 */
 
 #content4 .carousel-inner{
@@ -424,26 +398,47 @@ nav .nav-link{
     border-radius: 25%;
     width: 30px;
 }
-/* #content5 img{
-    max-height: 100%;
-    width: auto;
-} */
+#content5 {
+    color: #434040;
+}
+#content5 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #575454;
+}
+#content5 .btn{
+    padding: 10px 16px;
+    border-radius: 8px;
+}
 #content5 .image-item{
     max-height: 230px;
     max-width: 227.85px;
     padding: 0;
     overflow: hidden;
 }
+#content5 h6{
+    font-size: 24px;
+    font-weight: 500;
+}
+@media (max-width: 575px) {
+    #content5 #content51{
+    margin: 0 10px;
+    }
+}
 footer{
     margin-top: 10vh;
     background-color: #D9F5FF;
 }
-.footer-content{
-    
-}
-.footer-content h2{
+.footer-content h5{
+    color: #333232;
+    font-weight: 600;
+    font-size: 18px;
     margin-bottom: 50px;
 }
 .footer-content p{
+    color: #333232;
+    font-size: 14px;
+    font-weight: 500;
     margin-bottom: 30px;
 }
