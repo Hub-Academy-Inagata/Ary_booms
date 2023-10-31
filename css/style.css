@@ -128,7 +128,7 @@ nav .nav-link{
 
 /* Content 2 */
 #content2{
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 #content2 #offer {
     display: flex;
@@ -229,7 +229,7 @@ nav .nav-link{
 
 /* hero-banner2 */
 #hero-banner2{
-    margin-top: 30vh !important;
+    margin-top: 20vh !important;
 }
 #hero-banner2 #banner-content{
     position: relative;
@@ -434,7 +434,7 @@ nav .nav-link{
     }
 }
 footer{
-    margin-top: 10vh;
+    margin-top: 20vh;
     background-color: #D9F5FF;
 }
 .footer-content h5{
